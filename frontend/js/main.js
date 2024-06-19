@@ -10,3 +10,5 @@ const updateCounter = async () => {
   let data = await response.json();
   counter.innerText = `${data}`;
 };
+
+console.log("checking");
